@@ -1,0 +1,5 @@
+1. Separate adversarial/classifier training data completely?
+2. Try on coloured images (channels=3)
+3. Increase pixel value of images
+4. New classifier deep NN
+5. TensorForest and other models classifier

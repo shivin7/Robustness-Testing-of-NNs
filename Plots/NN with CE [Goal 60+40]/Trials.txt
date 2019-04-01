@@ -1,0 +1,31 @@
+TRIAL 1
+Hyperparams :
+-Goal Probs = 0.6/0.4
+-Epochs = 6
+-REG_COEFF = 6.0
+-MIS_COEFF = 1.0
+-BATCH_SIZE = 10
+-Train Set Size = 1000 + 1000
+Observation :
+-Mostly produces [0.52401 0.47599] for both cat and dog samples (biased towards cats)
+-Tries to reach same goal state (adds greyish tinge to all pixels except some, which become same for all images)
+-Loss Plot P1.png
+-Images plot D1_i.png
+-Mean Absolute Noise for last batch : 0.016543236
+
+TRIAL 2
+Hyperparams :
+-Goal Probs = 0.6/0.4
+-Epochs = 3
+-REG_COEFF = 6.0
+-MIS_COEFF = 1.0
+-BATCH_SIZE = 10
+-Train Set Size = 3000 + 3000
+Observation :
+-Mostly produces [0.52401 0.47599] for both cat and dog samples (biased towards cats)
+-Tries to reach same goal state (adds greyish tinge to all pixels except some, which become same for all images)
+-Loss Plot P2.png
+-Images plot D2_i.png
+-Mean Absolute Noise for last batch : 0.011011404
+
+

@@ -1,0 +1,40 @@
+NN WITH CROSS-ENTROPY
+
+Plot-1
+- Train Set Size : 10000
+- Epochs : 10
+- REG_COEFF : 1.0
+- MIS_COEFF : 1.0
+- Batch Size : 10
+- Noise range : -1 to 1
+- Plotted after every 50 batches
+
+Plot-2
+- Train Set Size : 10000
+- Epochs : 10
+- REG_COEFF : 2.0
+- MIS_COEFF : 1.0
+- Batch Size : 10
+- Noise range : -1 to 1
+- Plotted after every 50 batches
+
+
+DC Plot-1
+- Train Set Size : 1000 Dog + 1000 Cat
+- Epochs : 50
+- REG_COEFF : 2.0
+- MIS_COEFF : 1.0
+- Batch Size : 10
+- Noise range : -1 to 1
+- Plotted after every 10 batches
+- Loss : Cross Entropy
+
+DC Plot-2
+- Train Set Size : 1000 Dog + 1000 Cat
+- Epochs : 50
+- REG_COEFF : 6.0
+- MIS_COEFF : 1.0
+- Batch Size : 10
+- Noise range : -1 to 1
+- Plotted after every 10 batches
+- Loss : Cross Entropy
