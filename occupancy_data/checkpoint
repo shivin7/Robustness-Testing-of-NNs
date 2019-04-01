@@ -1,0 +1,2 @@
+model_checkpoint_path: "classifierNNWeights"
+all_model_checkpoint_paths: "classifierNNWeights"
